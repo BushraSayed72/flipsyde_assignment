@@ -19,8 +19,8 @@ function PostPage({ data }) {
           <span className="years_ago">{moment(elem.publishDate).fromNow(true)} ago</span>
         </div>
       </div>
-      <p className="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid neque dicta voluptas doloremque suscipit in molestias, ex ad dolor. Libero sunt, rem ea ducimus voluptatibus consequatur tempore officia distinctio ipsam!</p>
-      <p className="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa incidunt atque odio, facere repellendus accusantium aliquam. Modi natus ea fugiat odit accusantium quibusdam commodi!</p>
+      <p className="para" >{elem.text}</p>
+      
         </div>
             ))
         }
