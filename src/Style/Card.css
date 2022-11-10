@@ -1,0 +1,93 @@
+/* https://youtu.be/A_8DSKGWWYI */
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Londrina Solid", cursive;
+} */
+
+.card {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  transition: all 0.6s ease;
+}
+
+
+.card:hover {
+  box-shadow: rgba(243, 187, 4, 0.190) -5px 5px;
+  /* rgba(255, 172, 28, 0.19) -20px 20px; */
+}
+
+/* .card .img{
+    height: 40%;
+    background-size: cover;
+} */
+.card .content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px;
+  font-weight: 300;
+}
+
+.card .content h3 {
+  width: 200px;
+  font-weight: 300;
+  font-size: 30px;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #ffac1c;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card .content p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.card .content a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* .card .content button {
+  font-family: "Londrina Solid", cursive;
+  font-weight: 100;
+  font-size: 20px;
+  color: #ffac1c;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffac1c26;
+  transition: 0.2s ease-in-out;
+} */
+/* 
+.card .content button:hover {
+  background-color: #ffac1c3f;
+  cursor: pointer;
+} */

@@ -1,0 +1,308 @@
+.top {
+  width: 100%;
+  height: 50%;
+  background: snow;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+
+  position: sticky;
+}
+.flipsyde {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+.header_link {
+  margin: 2rem;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+
+  color: black;
+}
+.link:hover,
+.link:active {
+  color: rgb(131, 132, 131);
+}
+/* ------------------------Homepage--------------------------
+---------------------------------------------------------------- */
+
+.home {
+  width: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.home_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  max-width: 100%;
+}
+.home_heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.home_hd {
+  color: rgb(247, 126, 5);
+}
+.home_para {
+  font-family: "poppins";
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: rgb(60, 59, 59);
+}
+
+.dog-annimated {
+  margin-left: 2rem;
+  width: 100%;
+}
+.post_heading {
+  margin-top: 0.8rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(24, 4, 95);
+  text-transform: capitalize;
+}
+.latest_heading {
+  margin-top: 0.8rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(24, 4, 95);
+  text-transform: capitalize;
+}
+.latest_events {
+  color: rgb(203, 15, 15);
+}
+/* ===============================POST PAGE=============================== */
+
+.post {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+.column_1 {
+  display: flex;
+  gap: 3rem;
+  cursor: pointer;
+}
+.post_content {
+  text-align: center;
+  color: rgb(50, 76, 76);
+  font-size: medium;
+  font-weight: 300;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.post_list {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.post_list a {
+  width: 25%;
+  text-decoration: none;
+  color: black;
+}
+
+.post_container {
+  border: 1px solid black;
+  width: 100%;
+
+  justify-content: center;
+  height: 23rem;
+  border-radius: 20px;
+  background-color: rgb(240, 207, 207);
+  font-family: poppins;
+  border-style: none;
+  border-width: 2px;
+  margin: 2rem;
+}
+.post_container:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: width 2s;
+  transform: scaleY(1.02);
+}
+.post_links {
+  color: rgb(203, 15, 15);
+  text-decoration: none;
+}
+.post_image {
+  height: auto;
+  align-items: center;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.exercise-image {
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  width: 90%;
+  border-radius: 20px;
+}
+.post_h3 {
+  margin-left: 8px;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+.post_para {
+  margin: 8px;
+  font-family: "lora", "serif";
+  text-align: center;
+}
+.post_owner {
+  display: flex;
+  align-items: center;
+}
+.post_owner img {
+  width: 40px;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.column_2 {
+  display: flex;
+  gap: 3rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.column_3 {
+  display: flex;
+  gap: 3rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.column_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+/* ====================================About==================== */
+.name {
+  text-align: center;
+  font-family: "lora", "serif";
+  font-size: 4rem;
+  color: brown;
+  font-weight: 500;
+  margin: 2rem;
+}
+.my_image1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.my_image_div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+.my_image {
+  border-radius: 50px;
+}
+.about_para {
+  margin: 2rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.thanks {
+  font-family: "lora", "serif";
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  color: brown;
+}
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  color: darkmagenta;
+  margin: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.paragraph {
+  font-family: "lora", "serif";
+  font-size: 2rem;
+  margin: 2rem;
+  text-align: center;
+  color: rgb(71, 5, 133);
+}
+/* ======================pages==================== */
+.border {
+  border: 1px solid;
+  margin: 4rem;
+  height: auto;
+  background-color: snow;
+  border-style: none;
+}
+
+.page_heading {
+  color: brown;
+  font-size: 2rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page_heading img {
+  padding: 1rem;
+  border-radius: 50%;
+}
+.years_ago {
+  font-size: 1.7rem;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 400;
+}
+.pages {
+  padding: 1rem;
+}
+.para {
+  font-size: 2rem;
+  margin: 2rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+
+  font-weight: 400;
+}
